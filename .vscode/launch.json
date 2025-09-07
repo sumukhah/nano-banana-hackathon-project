@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Story Book Generator",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/script.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/venv/bin/python",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "args": [],
+            "stopOnEntry": false,
+            "justMyCode": true
+        }
+    ]
+}
